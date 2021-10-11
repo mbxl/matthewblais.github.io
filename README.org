@@ -1,0 +1,38 @@
+#+TITLE: matthewblais.github.io
+
+My personal website.
+* HTML
+
+** index.html
+:PROPERTIES:
+:header-args:html: :tangle ~/pub/matthewblais.github.io/index.html
+:END:
+
+#+begin_src html
+  <html>
+    <head>
+      <title>
+        Matthew Blais
+      </title>
+    </head>
+    <body>
+      <p>
+        Hello World!
+      </p>
+    </body>
+  </html>
+#+end_src
+
+* CSS
+#+PROPERTY: header-args:css :tangle ~/pub/matthewblais.github.io/style.css
+
+#+begin_src css
+
+#+end_src
+
+* JavaScript
+#+PROPERTY: header-args:javascript :tangle ~/pub/matthewblais.github.io/script.js
+
+#+begin_src javascript
+
+#+end_src
