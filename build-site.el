@@ -7,7 +7,7 @@
        (list "matthewblais.github.io"
              :recursive t
              :base-directory "./content"
-             :publishing-directory "./pub"
+             :publishing-directory "./docs"
 	     :publishing-function 'org-html-publish-to-html)))
 
 ;; Generate the site output
@@ -15,3 +15,4 @@
 
 ;; Success message
 (message "Build complete!")
+
