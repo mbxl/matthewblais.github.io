@@ -4,7 +4,7 @@
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
-       (list "matthewblais.github.io"
+       (list "mbxl.github.io"
              :recursive t
              :base-directory "./content"
              :publishing-directory "./docs"
