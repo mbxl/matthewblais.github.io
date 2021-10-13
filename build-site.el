@@ -8,7 +8,17 @@
              :recursive t
              :base-directory "./content"
              :publishing-directory "./docs"
-	     :publishing-function 'org-html-publish-to-html)))
+	     :publishing-function 'org-html-publish-to-html
+	     :with-author nil
+	     :with-creator nil
+	     :with-toc nil
+	     :section-numbers nil
+	     :time-stamp-file nil)))
+
+(setq org-html-validation-link nil
+      org-html-head-include-scripts nil
+      org-html-head-include-default-style nil
+      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 ;; Generate the site output
 (org-publish-all t)
