@@ -1,6 +1,9 @@
 ;; Require org publishing system
 (require 'ox-publish)
-
+(require 'package)
+(setq package-user-dir (expand-file-name "./.packages"))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("elpa" . "https://elpa.gnu.org/packages/")))
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
@@ -18,7 +21,9 @@
 (setq org-html-validation-link nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+      org-html-head "<link rel=\"stylesheet\" href=\"style.css\" />")
+
+(org-babel-tangle-file "style-script.org")
 
 ;; Generate the site output
 (org-publish-all t)
