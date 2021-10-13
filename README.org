@@ -1,0 +1,2 @@
+* My personal website
+This is a page I set up to play around wtih while I complete my Computer Science courses.
