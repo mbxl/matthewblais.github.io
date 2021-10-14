@@ -16,6 +16,11 @@ I'm using this file to manage the CSS/Javascript for the site.
       <h1>
         Matthew Blais
       </h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="https://mbxl.github.io/pomotask/">pomotask</a>
+        <a href="likes.html">Things I like</a>
+      </nav>
       <p>
         Hello! My name is Matthew Blais. I am a Computer Science student in the beautiful Pacific Northwest.
       </p>
