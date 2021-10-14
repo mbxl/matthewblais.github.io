@@ -1,10 +1,32 @@
-#+TITLE: Styles/scripts
+#+TITLE: Site
 I'm using this file to manage the CSS/Javascript for the site.
+
+* HTML
+
+#+begin_src html :tangle ./docs/index.html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        Matthew Blais
+      </title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>
+        Matthew Blais
+      </h1>
+      <p>
+        Hello! My name is Matthew Blais. I am a Computer Science student in the beautiful Pacific Northwest.
+      </p>
+    </body>
+  </html>
+#+end_src
 
 * CSS
   I'm starting out with [[https://simplecss.org][Simple.css]] and making tweaks from there. 
 
-#+begin_src css :tangle ~/pub/matthewblais.github.io/docs/style.css
+#+begin_src css :tangle ./docs/style.css
   /* Set the global variables for everything. Change these to use your own fonts/colours. */
   :root {
   

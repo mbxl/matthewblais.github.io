@@ -1,2 +1,11 @@
 * My personal website
 This is a page I set up to play around wtih while I complete my Computer Science courses.
+
+- Originally, I was going to build this whole site with a bunch of org
+  files and use some built-in emacs packages to convert them to HTML,
+  but ultimately I don't think that's going to give me as much control
+  as I would like.
+  - Realistically, it's probably possible to get the kind of granular
+    control that I want with the tools I'm already using, but I don't
+    think that would have much application outside of my personal
+    systems. 
